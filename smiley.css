@@ -1,0 +1,43 @@
+/************FONT FACE************/
+
+@font-face {
+    font-family: 'Herculanum';
+    src: url(Herculanum-Regular.ttf);
+}
+
+h1{
+    font-family: 'Herculanum';
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+/**********ADD KEYFRAMES***********/
+.rotate {
+    animation: rotation 3s infinite;
+    transform-box:  fill-box;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/************ADD CLASSES************/
+
+.hide{
+    display: none;
+}
+
+.fill-black {
+   fill: black;
+}
+
+.fill-white{
+    fill: white;
+}
